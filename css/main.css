@@ -1,0 +1,223 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.fourth-width {
+    width: 300px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero-milk.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 85px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+header h1 {
+    clear: both;
+    color: #FFF000;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+    line-height: 120px;
+    margin: 0;
+    padding: 80px 0 0 25px;
+}
+
+header h3 {
+    color: #FFF000;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    padding: 70px 0 100px 0;
+}
+
+#portfolio h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#portfolio img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio h4 {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 5px 0;
+}
+
+#portfolio p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #1E4769;
+    color: #ffffff;
+    padding: 70px 0 40px 0;
+}
+
+#profile {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 15px 0 10px 15px;
+}
+
+#about h4{
+    color: #FFF000;
+    margin: 0;
+    padding: 0 0 10px 15px;
+}
+
+#about p {
+    margin: 0;
+    padding: 20px 100px 10px 15px;
+}
+
+/***** SKILLS *****/
+
+#skills {
+    background-color: #1E4769;
+    color: #ffffff;
+    padding: 0 0 70px 0;
+}
+
+#skills h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#skills img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+#skills p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    padding: 50px 0;
+}
+
+#contact h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#contact a {
+    color: #1E4769;
+    text-decoration: none;
+}
+
+#email a {
+    padding-left: 270px;
+}
+
+#email img {
+    padding: 25px 10px 0 0;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+#linkedin {
+    padding-left: 150px
+}
+
+/***** FOOTER *****/
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    color: #696969;
+    text-decoration: none;
+}
