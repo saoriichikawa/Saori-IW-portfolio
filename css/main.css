@@ -32,7 +32,7 @@ body {
 
 header {
     height: 800px;
-    background: url('../img/hero-milk.jpg') no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/hero-milk.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
